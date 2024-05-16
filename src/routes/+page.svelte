@@ -45,6 +45,7 @@
 
   function handlePromptKeyDown(event: KeyboardEvent) {
     if (event.key === 'Enter') {
+      event.preventDefault();
       handlePrompt();
     }
   }
